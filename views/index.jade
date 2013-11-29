@@ -1,0 +1,228 @@
+!!! 5
+html.no-js(lang='en')
+  head
+    meta(charset='UTF-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')
+    meta(name='viewport', content='width=device-width, initial-scale=1.0')
+    link(rel='stylesheet', type='text/css', href='css/multilevelmenu.css')
+    link(rel='stylesheet', type='text/css', href='css/default.css')
+    link(rel='stylesheet', type='text/css', href='css/component.css')
+    link(rel='stylesheet', type='text/css', href='css/animations.css')
+    script(src='js/modernizr.custom.js')
+    script(src='js/socket.io.min.js')
+  body
+    .pt-triggers
+      button#iterateEffects.pt-touch-button Show next page transition
+      #dl-menu.dl-menuwrapper
+        button.dl-trigger Choose a transition
+        ul.dl-menu
+          li
+            a(href='#') Move
+            ul.dl-submenu
+              li(data-animation='1')
+                a(href='#') Move to left/ from right
+              li(data-animation='2')
+                a(href='#') Move to right/ from left
+              li(data-animation='3')
+                a(href='#') Move to top/ from bottom
+              li(data-animation='4')
+                a(href='#') Move to bottom/ from top
+          li
+            a(href='#') Fade
+            ul.dl-submenu
+              li(data-animation='5')
+                a(href='#') Fade / from right
+              li(data-animation='6')
+                a(href='#') Fade / from left
+              li(data-animation='7')
+                a(href='#') Fade / from bottom
+              li(data-animation='8')
+                a(href='#') Fade / from top
+              li(data-animation='9')
+                a(href='#') Fade left / Fade right
+              li(data-animation='10')
+                a(href='#') Fade right / Fade left
+              li(data-animation='11')
+                a(href='#') Fade top / Fade bottom
+              li(data-animation='12')
+                a(href='#') Fade bottom / Fade top
+          li
+            a(href='#') Different easing
+            ul.dl-submenu
+              li(data-animation='13')
+                a(href='#') Different easing / from right
+              li(data-animation='14')
+                a(href='#') Different easing / from left
+              li(data-animation='15')
+                a(href='#') Different easing / from bottom
+              li(data-animation='16')
+                a(href='#') Different easing / from top
+          li
+            a(href='#') Scale
+            ul.dl-submenu
+              li(data-animation='17')
+                a(href='#') Scale down / from right
+              li(data-animation='18')
+                a(href='#') Scale down / from left
+              li(data-animation='19')
+                a(href='#') Scale down / from bottom
+              li(deventata-animation='20')
+                a(href='#') Scale down / from top
+              li(data-animation='21')
+                a(href='#') Scale down / scale down
+              li(data-animation='22')
+                a(href='#') Scale up / scale up
+              li(data-animation='23')
+                a(href='#') Move to left / scale up
+              li(data-animation='24')
+                a(href='#') Move to right / scale up
+              li(data-animation='25')
+                a(href='#') Move to top / scale up
+              li(data-animation='26')
+                a(href='#') Move to bottom / scale up
+              li(data-animation='27')
+                a(href='#') Scale down / scale up
+          li
+            a(href='#') Rotate
+            ul.dl-submenu
+              li
+                a(href='#') Glue
+                ul.dl-submenu
+                  li(data-animation='28')
+                    a(href='#') Glue left / from right
+                  li(data-animation='29')
+                    a(href='#') Glue right / from left
+                  li(data-animation='30')
+                    a(href='#') Glue bottom / from top
+                  li(data-animation='31')
+                    a(href='#') Glue top / from bottom
+              li
+                a(href='#') Flip
+                ul.dl-submenu
+                  li(data-animation='32')
+                    a(href='#') Flip right
+                  li(data-animation='33')
+                    a(href='#') Flip left
+                  li(data-animation='34')
+                    a(href='#') Flip top
+                  li(data-animation='35')
+                    a(href='#') Flip bottom
+              li(data-animation='36')
+                a(href='#') Fall
+              li(data-animation='37')
+                a(href='#') Newspaper
+              li
+                a(href='#') Push / Pull
+                ul.dl-submenu
+                  li(data-animation='38')
+                    a(href='#') Push left / from right
+                  li(data-animation='39')
+                    a(href='#') Push right / from left
+                  li(data-animation='40')
+                    a(href='#') Push top / from bottom
+                  li(data-animation='41')
+                    a(href='#') Push bottom / from top
+                  li(data-animation='42')
+                    a(href='#') Push left / pull right
+                  li(data-animation='43')
+                    a(href='#') Push right / pull left
+                  li(data-animation='44')
+                    a(href='#') Push top / pull bottom
+                  li(data-animation='45')
+                    a(href='#') Push bottom / pull top
+              li
+                a(href='#') Fold / Unfold
+                ul.dl-submenu
+                  li(data-animation='46')
+                    a(href='#') Fold left / from right
+                  li(data-animation='47')
+                    a(href='#') Fold right / from left
+                  li(data-animation='48')
+                    a(href='#') Fold top / from bottom
+                  li(data-animation='49')
+                    a(href='#') Fold bottom / from top
+                  li(data-animation='50')
+                    a(href='#') Move to right / unfold left
+                  li(data-animation='51')
+                    a(href='#') Move to left / unfold right
+                  li(data-animation='52')
+                    a(href='#') Move to bottom / unfold top
+                  li(data-animation='53')
+                    a(href='#') Move to top / unfold bottom
+              li
+                a(href='#') Room
+                ul.dl-submenu
+                  li(data-animation='54')
+                    a(href='#') Room to left
+                  li(data-animation='55')
+                    a(href='#') Room to right
+                  li(data-animation='56')
+                    a(href='#') Room to top
+                  li(data-animation='57')
+                    a(href='#') Room to bottom
+              li
+                a(href='#') Cube
+                ul.dl-submenu
+                  li(data-animation='58')
+                    a(href='#') Cube to left
+                  li(data-animation='59')
+                    a(href='#') Cube to right
+                  li(data-animation='60')
+                    a(href='#') Cube to top
+                  li(data-animation='61')
+                    a(href='#') Cube to bottom
+              li
+                a(href='#') Carousel
+                ul.dl-submenu
+                  li(data-animation='62')
+                    a(href='#') Carousel to left
+                  li(data-animation='63')
+                    a(href='#') Carousel to right
+                  li(data-animation='64')
+                    a(href='#') Carousel to top
+                  li(data-animation='65')
+                    a(href='#') Carousel to bottom
+              li(data-animation='66')
+                a(href='#') Sides
+          li(data-animation='67')
+            a(href='#') Slide
+      //
+         /dl-menu-wrapper
+    //
+       /triggers 
+    #pt-main.pt-perspective
+      .pt-page.pt-page-1
+        h1
+          span A collection of
+          strong Page
+          | Transitions
+      .pt-page.pt-page-2
+        h1
+          span A collection of
+          strong Page
+          | Transitions
+      .pt-page.pt-page-3
+        h1
+          span A collection of
+          strong Page
+          | Transitions
+      .pt-page.pt-page-4
+        h1
+          span A collection of
+          strong Page
+          | Transitions
+      .pt-page.pt-page-5
+        h1
+          span A collection of
+          strong Page
+          | Transitions
+      .pt-page.pt-page-6
+        h1
+          span A collection of
+          strong Page
+          | Transitions
+    .pt-message
+      p Your browser does not support CSS animations.
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js')
+    script(src='js/jquery.dlmenu.js')
+    script(src='js/pagetransitions.js')

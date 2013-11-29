@@ -1,0 +1,19 @@
+{
+  "name": "ShareMe",
+  "description": "Real-time apps made cross-browser & easy with a WebSocket-like API",
+  "version": "0.0.1",
+  "author":{
+    "name": "Sina Sharafzadeh",
+    "email": "sina.sharafzadeh@gmail.com"
+  },
+  "development":true,
+  "private": true,
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "jade": "*",
+    "socket.io":"latest"
+  }
+}
