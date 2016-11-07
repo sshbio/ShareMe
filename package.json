@@ -14,6 +14,6 @@
   "dependencies": {
     "express": "3.4.4",
     "jade": "*",
-    "socket.io":"latest"
+    "socket.io":"0.9"
   }
 }
