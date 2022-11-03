@@ -17,3 +17,16 @@ switching all above tools like a charm .
 nodejs
 vnc server
 
+Features of the <a href="https://sites.google.com/view/sharemeforpc/home">ShareMe App</a>
+
+Suitable for all Android gadgets.
+Faster than a Bluetooth connection by 200 times.
+Send and receive files of any kind, including movies, photos, documents, installed apps, and APK-formatted software.
+Easily share files with one tap.
+interface that is easy to utilise.
+Send files of any size or number without restrictions.
+Possibility of transferring data by creating QR codes.
+
+
+
+<a href="https://sites.google.com/view/sharemeforpc/home">visit Here</a>
